@@ -1,1 +1,33 @@
+# compiled binaries and executables
 *.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+
+# test and coverage outputs
+_obj/
+_testmain.go
+*.out
+profile.out
+coverage.out
+
+# environment variables and secrets
+secrets.yaml
+.env.local
+.env.test
+.env.dev
+
+# IDEs and editors (vscode, jetbrains)
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+
+# system files
+.DS_Store
+Thumbs.db
