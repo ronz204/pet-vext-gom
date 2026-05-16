@@ -1,5 +1,7 @@
 package main
 
+import "vextpss/source/commands"
+
 func main() {
-	println("Hello, World!")
+	commands.Execute()
 }
